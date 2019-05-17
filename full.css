@@ -5,11 +5,11 @@ body, html {
 header {
   height: 75px;
   min-width: 100vw;
+  box-shadow:inset 0px 0px 30px 30px rgba(255,255,255,.25);
 }
 footer {
   height: 170px;
 }
-
 .bg {
   /* The image used */
   background-image: url("img/bg_shoreline.jpg");
@@ -23,15 +23,9 @@ footer {
   background-size: cover;
   background-attachment: fixed;
 }
-
-.bg-purple {
-  background-color: rgb(112, 16, 112);
+.bg-lin {
+  background: linear-gradient(170deg, rgba(154,50,205,1) 0%, rgba(0,255,127,1) 100%);
 }
-
-.bg-grad-green {
-  background: linear-gradient(120deg, #136c13, #248f24 30%, #136c13);
-}
-
 /* Social Media buttons set 1 */
 .socialMediaLinks a {
   font-size: 26px;
@@ -53,4 +47,23 @@ footer {
 }
 .socialMediaLinks a.fa-etsy { 
   color: #F45800; 
+}
+.pageContent {
+  width: 60%;
+  margin: 0 auto;
+}
+.navBar {
+  font-size: 1.3rem;
+}
+.navBar a {
+  text-decoration: none;
+  padding: 0px 2px;
+  color: black; 
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.navBar a:hover, .navBar a:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
 }
