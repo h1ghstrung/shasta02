@@ -2,6 +2,13 @@ body, html {
   height: 100%;
   margin: 0;
 }
+header {
+  height: 75px;
+  min-width: 100vw;
+}
+footer {
+  height: 170px;
+}
 
 .bg {
   /* The image used */
@@ -43,4 +50,7 @@ body, html {
 }
 .socialMediaLinks a.fa-instagram { 
   color: #8a3ab9; 
+}
+.socialMediaLinks a.fa-etsy { 
+  color: #F45800; 
 }
